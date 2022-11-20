@@ -1,5 +1,5 @@
 
-
+import '../styles/Navbar.css';
 
 function Navbar (props) {
 

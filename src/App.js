@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 // import './App.css';
 import Navbar from './components/Navbar';
 import {useState} from "react"
@@ -21,6 +20,9 @@ function App() {
        <Navbar setPage= {setCurrentPage}/>
        {Navigation()}
       </header>
+      <div className="">
+        
+      </div>
     </div>
   );
 }
